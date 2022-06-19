@@ -688,10 +688,10 @@ body.landing:after {
 }
 
 body.landing.is-preload:before {
-    -moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
-    -webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
-    -ms-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
-    animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
+    -moz-animation: spinner-show 0.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
+    -webkit-animation: spinner-show 0.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
+    -ms-animation: spinner-show 0.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
+    animation: spinner-show 0.5s 1 0.25s ease forwards, spinner-rotate 0.75s infinite linear !important;
     z-index: 100001;
 }
 
