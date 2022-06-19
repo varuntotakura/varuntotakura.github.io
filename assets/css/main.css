@@ -645,10 +645,10 @@ body.landing:before {
 }
 
 body.landing:before {
-    -moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
-    -webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
-    -ms-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
-    animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
+    -moz-animation: spinner-show 0.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
+    -webkit-animation: spinner-show 0.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
+    -ms-animation: spinner-show 0.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
+    animation: spinner-show 0.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
     -moz-transform-origin: 50% 50%;
     -webkit-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
@@ -671,10 +671,10 @@ body.landing:before {
 }
 
 body.landing:after {
-    -moz-animation: overlay-hide 1.5s ease-in forwards !important;
-    -webkit-animation: overlay-hide 1.5s ease-in forwards !important;
-    -ms-animation: overlay-hide 1.5s ease-in forwards !important;
-    animation: overlay-hide 1.5s ease-in forwards !important;
+    -moz-animation: overlay-hide 0.5s ease-in forwards !important;
+    -webkit-animation: overlay-hide 0.5s ease-in forwards !important;
+    -ms-animation: overlay-hide 0.5s ease-in forwards !important;
+    animation: overlay-hide 0.5s ease-in forwards !important;
     background: #1c1d26;
     content: '';
     display: block;
