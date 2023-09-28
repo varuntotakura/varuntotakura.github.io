@@ -1,8 +1,8 @@
 # varuntotakura.github.io
 
-Welcome
+Hey Everyone!
 
-https://varuntotakura.github.io/
+Please visit my website: https://varuntotakura.github.io/
 
 Regards,
-VARUN
+Varun Totakura
