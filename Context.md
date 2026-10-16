@@ -9,8 +9,8 @@ Refresh the portfolio copy to be approachable, concise, and easy to scan while k
 Work in small phases so another session can resume without repeating research:
 
 1. **Source review — complete.** Read the resume documents and map current portfolio pages.
-2. **Portfolio refresh — complete.** Homepage is a lightweight GenAI/LLM-focused page with a friendly tone, resume-sourced impact metrics, and the user's latest portrait. Research, Certifications, and Rewards & Recognition pages share the homepage theme. Date-bearing lists and timelines are newest-first. The original ClustrMaps visitor map is retained and loads asynchronously.
-3. **Verification — complete.** Homepage and content pages render at desktop/mobile widths; the viewport has no horizontal overflow. Local links resolve, editor diagnostics are clean, and `git diff --check` passes. The homepage uses a standalone stylesheet and a 66 KB web-sized portrait derived from `images/Best.JPG`; it does not load the legacy stylesheet or JS libraries. No build/test command is configured. The ClustrMaps third-party request may be blocked in local file previews.
+2. **Portfolio refresh — complete.** Homepage is a lightweight GenAI/LLM-focused page with a friendly tone, resume-sourced impact metrics, and the user's latest portrait. Research, Certifications, and Rewards & Recognition pages share the homepage theme. Date-bearing lists and timelines are newest-first. The MapMyVisitors pageview counter is retained as a compact, fixed-width footer icon.
+3. **Verification — complete.** Homepage and content pages render at desktop/mobile widths; the viewport has no horizontal overflow. Local links resolve, editor diagnostics are clean, and `git diff --check` passes. The homepage uses a standalone stylesheet and a 66 KB web-sized portrait derived from `images/Best.JPG`; it does not load the legacy stylesheet or JS libraries. No build/test command is configured. The MapMyVisitors third-party request may be blocked in local file previews.
 
 ## Source hierarchy and factual notes
 
@@ -47,7 +47,7 @@ Work in small phases so another session can resume without repeating research:
 
 ## Existing site and links
 
-- `index.html` is a lightweight, GenAI/LLM-focused homepage using the standalone `assets/css/home.css` stylesheet, a 1000×667 optimized portrait derived from the user's `images/Best.JPG`, and an asynchronous ClustrMaps visitor-map script. It does not load the legacy stylesheet or JS libraries. The current-role work section covers multi-agent analytics/RAG, LLM quality and evaluation, healthcare campaign analytics and A/B testing, and pipeline performance in a balanced four-card grid. Impact metrics are resume-sourced.
+- `index.html` is a lightweight, GenAI/LLM-focused homepage using the standalone `assets/css/home.css` stylesheet, a 1000×667 optimized portrait derived from the user's `images/Best.JPG`, and an asynchronous MapMyVisitors pageview-counter embed. The counter is configured at 56px wide; the date and branding row are hidden while the pageview count remains visible. It does not load the legacy stylesheet or JS libraries. The current-role work section covers multi-agent analytics/RAG, LLM quality and evaluation, healthcare campaign analytics and A/B testing, and pipeline performance in a balanced four-card grid. Impact metrics are resume-sourced.
 - `recognitions.html` is the separate Rewards & Recognition page for professional awards, peer-review service, and academic achievement, sorted newest-to-oldest. Its IEEE and Machine Learning with Applications certificate links point to PDFs in `Recognition/`.
 - Main navigation already links to `index.html`, `certifications.html`, `researchpapers.html`, and `Resume.pdf`. Keep those destinations.
 - `certifications.html` contains ten linked Coursera certificates plus Deep Learning Specialization and Google Cloud QwikLab profile links. Preserve every existing URL.

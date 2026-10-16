@@ -1013,8 +1013,28 @@ h1 span {
 
 .visitor-map {
 	display: flex;
+	min-height: 0;
 	justify-content: center;
-	margin-bottom: 1.5rem;
+	margin: 0 auto 0.15rem;
+}
+
+.visitor-map #mapmyvisitors-widget {
+	width: 36px !important;
+	min-height: 0 !important;
+	height: auto !important;
+	margin: 0;
+	overflow: hidden;
+	border: 0;
+	border-radius: 5px;
+}
+
+.visitor-map #mapmyvisitors-widget > .mapmyvisitors-bottom-text {
+	display: none !important;
+}
+
+.visitor-map #mapmyvisitors-widget > .mapmyvisitors-map-container,
+.visitor-map #mapmyvisitors-widget .mapmyvisitors-map {
+	max-width: 36px;
 }
 
 .footer-top {
