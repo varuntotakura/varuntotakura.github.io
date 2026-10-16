@@ -1019,7 +1019,7 @@ h1 span {
 }
 
 .visitor-map #mapmyvisitors-widget {
-	width: 36px !important;
+	width: 56px !important;
 	min-height: 0 !important;
 	height: auto !important;
 	margin: 0;
@@ -1034,7 +1034,7 @@ h1 span {
 
 .visitor-map #mapmyvisitors-widget > .mapmyvisitors-map-container,
 .visitor-map #mapmyvisitors-widget .mapmyvisitors-map {
-	max-width: 36px;
+	max-width: 56px;
 }
 
 .footer-top {
